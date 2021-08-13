@@ -1,0 +1,9 @@
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/bin/Debug/netcoreapp3.1/CustomerReviews.Core.deps.json
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/bin/Debug/netcoreapp3.1/CustomerReviews.Core.dll
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/bin/Debug/netcoreapp3.1/CustomerReviews.Core.pdb
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.csprojAssemblyReference.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.AssemblyInfoInputs.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.AssemblyInfo.cs
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.csproj.CoreCompileInputs.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.dll
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/Debug/netcoreapp3.1/CustomerReviews.Core.pdb

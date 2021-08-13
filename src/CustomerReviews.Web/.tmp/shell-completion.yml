@@ -1,0 +1,141 @@
+'?': 
+ApiKey: 
+AppsettingsPath: 
+ArtifactsDirectory: 
+Configuration: 
+Continue: 
+CoverageReportPath: 
+CustomModulePackageUri: 
+CustomVersionPrefix: 
+CustomVersionSuffix: 
+DiscoveryPath: 
+GitHubToken: 
+GitHubUser: 
+GlobalModuleIgnoreFileUrl: 
+GrabMigratorConfig: 
+Help: 
+Host:
+- AppVeyor
+- AzurePipelines
+- Bamboo
+- Bitrise
+- Console
+- GitHubActions
+- GitLab
+- Jenkins
+- TeamCity
+- Travis
+Module: 
+ModulesFolderPath: 
+ModulesJsonDirectoryName: 
+ModulesJsonName: 
+ModulesJsonRepoUrl: 
+NoLogo: 
+NugetConfig: 
+PackageJsonPath: 
+PackageManifestPath: 
+Plan: 
+Platform: 
+PreRelease: 
+ProbingPath: 
+PullRequest: 
+ReleaseBranch: 
+ReleaseNotes: 
+RepoName: 
+RepoOrg: 
+Root: 
+Skip:
+- ChangeVersion
+- Clean
+- Compile
+- CompleteHotfix
+- CompleteRelease
+- Compress
+- GetManifestGit
+- GrabMigrator
+- IncrementMinor
+- IncrementPatch
+- Init
+- InitPlatform
+- Install
+- InstallModules
+- InstallPlatform
+- MassPullAndBuild
+- Pack
+- Publish
+- PublishManifestGit
+- PublishModuleManifest
+- PublishPackages
+- QuickRelease
+- Release
+- Restore
+- SonarQubeEnd
+- SonarQubeStart
+- StartAnalyzer
+- StartHotfix
+- StartRelease
+- SwaggerValidation
+- Test
+- Uninstall
+- Update
+- UpdateManifest
+- ValidateSwaggerSchema
+- WebPackBuild
+SkipDependencySolving: 
+SonarAuthToken: 
+SonarBranchName: 
+SonarBranchNameTarget: 
+SonarGithubRepo: 
+SonarOrg: 
+SonarPRBase: 
+SonarPRBranch: 
+SonarPRNumber: 
+SonarPRProvider: 
+SonarUrl: 
+Source: 
+SwaggerSchemaPath: 
+SwaggerValidatorUri: 
+Target:
+- ChangeVersion
+- Clean
+- Compile
+- CompleteHotfix
+- CompleteRelease
+- Compress
+- GetManifestGit
+- GrabMigrator
+- IncrementMinor
+- IncrementPatch
+- Init
+- InitPlatform
+- Install
+- InstallModules
+- InstallPlatform
+- MassPullAndBuild
+- Pack
+- Publish
+- PublishManifestGit
+- PublishModuleManifest
+- PublishPackages
+- QuickRelease
+- Release
+- Restore
+- SonarQubeEnd
+- SonarQubeStart
+- StartAnalyzer
+- StartHotfix
+- StartRelease
+- SwaggerValidation
+- Test
+- Uninstall
+- Update
+- UpdateManifest
+- ValidateSwaggerSchema
+- WebPackBuild
+TestsFilter: 
+Verbosity:
+- Minimal
+- Normal
+- Quiet
+- Verbose
+Version: 

@@ -1,0 +1,15 @@
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Data.deps.json
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Data.runtimeconfig.json
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Data.runtimeconfig.dev.json
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Data.dll
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Data.pdb
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Core.dll
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/bin/Debug/netcoreapp3.1/CustomerReviews.Core.pdb
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.csprojAssemblyReference.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.AssemblyInfoInputs.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.AssemblyInfo.cs
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.csproj.CoreCompileInputs.cache
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.csproj.CopyComplete
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.dll
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.pdb
+/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/Debug/netcoreapp3.1/CustomerReviews.Data.genruntimeconfig.cache

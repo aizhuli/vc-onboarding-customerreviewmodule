@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/tests/CustomerReviews.Test/CustomerReviews.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj",
+        "projectName": "CustomerReviews.Core",
+        "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj",
+        "packagesPath": "/Users/Aizhuldyz/.nuget/packages/",
+        "outputPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Aizhuldyz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "VirtoCommerce.Platform.Core": {
+              "target": "Package",
+              "version": "[3.62.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj",
+        "projectName": "CustomerReviews.Data",
+        "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj",
+        "packagesPath": "/Users/Aizhuldyz/.nuget/packages/",
+        "outputPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Aizhuldyz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj": {
+                "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "VirtoCommerce.Platform.Data": {
+              "target": "Package",
+              "version": "[3.62.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/CustomerReviews.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/CustomerReviews.Web.csproj",
+        "projectName": "CustomerReviews.Web",
+        "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/CustomerReviews.Web.csproj",
+        "packagesPath": "/Users/Aizhuldyz/.nuget/packages/",
+        "outputPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Aizhuldyz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj": {
+                "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/tests/CustomerReviews.Test/CustomerReviews.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/tests/CustomerReviews.Test/CustomerReviews.Test.csproj",
+        "projectName": "CustomerReviews.Test",
+        "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/tests/CustomerReviews.Test/CustomerReviews.Test.csproj",
+        "packagesPath": "/Users/Aizhuldyz/.nuget/packages/",
+        "outputPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/tests/CustomerReviews.Test/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Aizhuldyz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj": {
+                "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Core/CustomerReviews.Core.csproj"
+              },
+              "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj": {
+                "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Data/CustomerReviews.Data.csproj"
+              },
+              "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/CustomerReviews.Web.csproj": {
+                "projectPath": "/Users/Aizhuldyz/Documents/Virtoway/CustomerReviews/src/CustomerReviews.Web/CustomerReviews.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "MockQueryable.Moq": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

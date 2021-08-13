@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>CustomerReviews</id>
+    <version>3.0.0</version>
+    <version-tag></version-tag>
+    <platformVersion>3.62.0</platformVersion>
+
+    <title>Sample Customer reviews</title>
+    <description>Sample module demonstrating best practices in a real life example.</description>
+    <authors>
+        <author>Egidijus Mazeika</author>
+    </authors>
+
+    <assemblyFile>CustomerReviews.Web.dll</assemblyFile>
+    <moduleType>CustomerReviews.Web.Module, CustomerReviews.Web</moduleType>
+</module>
