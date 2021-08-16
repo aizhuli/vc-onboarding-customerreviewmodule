@@ -26,20 +26,27 @@ angular.module(moduleTemplateName, [])
             });
     }
 ])
-.run(['platformWebApp.mainMenuService', 'platformWebApp.widgetService', '$state',
-    function (mainMenuService, widgetService, $state) {
-        //Register module in main menu
-        var menuItem = {
-            path: 'browse/customerReviews',
-            icon: 'fa fa-comments',
-            title: 'Customer Reviews',
-            priority: 100,
-            action: function () { $state.go('workspace.customerReviews') },
-            permission: 'customerReview:read'
-        };
-        mainMenuService.addMenuItem(menuItem);
+    .run(['platformWebApp.mainMenuService', 'platformWebApp.widgetService', '$state', 'platformWebApp.settings',
+    function (mainMenuService, widgetService, $state, settings) {
+            //Register module in main menu
+
+        settings.getValues({ id: 'CustomerReviews.CustomerReviewsEnabled' }, function (setting) {
+            if (setting[0] === true) {
+                var menuItem = {
+                    path: 'browse/customerReviews',
+                    icon: 'fa fa-comments',
+                    title: 'Customer Reviews',
+                    priority: 100,
+                    action: function () { $state.go('workspace.customerReviews') },
+                    permission: 'customerReview:read'
+                };
+                mainMenuService.addMenuItem(menuItem);
+            }
+        });
+        
 
         //Register reviews widget inside product blade
+
         var itemReviewsWidget = {
             controller: 'CustomerReviews.customerReviewWidgetController',
             template: 'Modules/$(CustomerReviews)/Scripts/widgets/customerReviewWidget.tpl.html'
@@ -52,5 +59,5 @@ angular.module(moduleTemplateName, [])
             template: 'Modules/$(CustomerReviews)/Scripts/widgets/customerReviewPositiveWidget.tpl.html'
         };
         widgetService.registerWidget(itemReviewsPositiveWidget, 'itemDetail');
-    }
+            }
 ]);
